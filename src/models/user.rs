@@ -1,6 +1,6 @@
-use serde::{Deserialize, Serialize};
+use serde::Deserialize;
 
-#[derive(Clone, Serialize, Deserialize, PartialEq)]
+#[derive(Clone, Deserialize, PartialEq)]
 #[serde(rename_all = "camelCase")]
 pub struct User {
     pub first_name: String,
