@@ -9,3 +9,8 @@ pub struct User {
     pub gender: String,
     pub phone: String,
 }
+
+#[derive(Clone, Deserialize, PartialEq)]
+pub struct Users {
+    pub users: Vec<User>
+}

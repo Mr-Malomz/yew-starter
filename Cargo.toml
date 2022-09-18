@@ -8,3 +8,5 @@ edition = "2021"
 [dependencies]
 yew = "0.19"
 serde = "1.0.144"
+gloo-net = "0.2"
+wasm-bindgen-futures = "0.4"
